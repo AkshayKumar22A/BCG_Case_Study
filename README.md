@@ -68,6 +68,7 @@ spark-submit --master "local[*]" --driver-memory 4G run_analysis.py --config con
   --config: Path to config file (default: config/config.yml)
 
 ## Project Structure
+```
   bcg-case-study/
   ├── src/
   │   ├── __pycache__
@@ -88,7 +89,7 @@ spark-submit --master "local[*]" --driver-memory 4G run_analysis.py --config con
   ├── output/                  # Analysis results
   ├── case_study.log           # Execution logs
   └── Readme.md                # Readme File
-
+```
 ## Output
   Results are saved as CSV files in data/output/analysis_*/. Each folder corresponds to one analysis.
 
