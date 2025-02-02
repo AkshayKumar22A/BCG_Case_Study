@@ -93,5 +93,3 @@ spark-submit --master "local[*]" --driver-memory 4G run_analysis.py --config con
 ## Output
   Results are saved as CSV files in data/output/analysis_*/. Each folder corresponds to one analysis.
 
-Contact: akshaykumar22a@gmail.com
-GitHub: @AkshayKumar22A
