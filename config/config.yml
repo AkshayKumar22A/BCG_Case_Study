@@ -1,0 +1,23 @@
+# BCG Case Study Configuration
+data:
+  input_path: "./data"          # Source data directory
+  output_path: "./output"       # Analysis results directory
+  primary_person: "Primary_Person_use.csv"  # Person records
+  units: "Units_use.csv"        # Vehicle unit data
+  charges: "Charges_use.csv"    # Charge information
+  damages: "Damages_use.csv"    # Damage records
+
+analyses:                       # List of analyses to execute
+  - analysis_1
+  - analysis_2
+  - analysis_3
+  - analysis_4
+  - analysis_5
+  - analysis_6
+  - analysis_7
+  - analysis_8
+  - analysis_9
+  - analysis_10
+
+log_level: "INFO"              # Logging level (DEBUG|INFO|WARNING|ERROR)
+ 
